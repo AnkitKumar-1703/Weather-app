@@ -47,7 +47,7 @@ export default function Dashboard() {
         <div className="flex">
         <SearchBox onchange={(e)=>{
             setCity(e.target.value);
-            console.log(city);
+            // console.log(city);
         }} />
         <Searchbutton onclick={async()=>{
             setLoder(true);
